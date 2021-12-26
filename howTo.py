@@ -2,11 +2,11 @@ import os
 import pandas as pd 
 
 
-# 打印当前路径
+# print the current 
 import os
 print(os.path.abspath('.'))
 
-#读取文件夹下的所有文件
+#read all the files under a folder
 emptyL = []
 
 x = [x for x in allFiles if 'A' in x]
@@ -18,7 +18,7 @@ for a in x:
 b = pd.concat(emptyL)
 
 
-#pivot_table
+#pivot_table & plot
 d = c.pivot_table(index='Date',columns='which',values='Open',aggfunc='first')
 ax = d.reset_index().plot(kind='line',x='Date',figsize=(24,36))
 ax.figure.savefig('demo-file.pdf')
