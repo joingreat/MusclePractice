@@ -22,3 +22,7 @@ how to create envs
     activate larry
 
     https://zhuanlan.zhihu.com/p/60647332
+
+active in jupyter
+    conda install nb_conda
+    https://zhuanlan.zhihu.com/p/29564719
