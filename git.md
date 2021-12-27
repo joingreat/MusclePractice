@@ -15,3 +15,10 @@ how to fix "OpenSSL SSL_read: Connection was reset, errno"
 git config 
     
 --global http.sslVerify "false"  
+
+how to create envs
+
+    conda create -n larry python=3.6
+    activate larry
+
+    https://zhuanlan.zhihu.com/p/60647332
