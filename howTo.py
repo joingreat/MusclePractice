@@ -62,3 +62,4 @@ records =[json.loads(line) for line in open(path)]
 
 by_tz_os = cframe.groupby(['tz',operation_system])
 agg_counts= by_tz_os.size().unstack().fillna(0)
+
