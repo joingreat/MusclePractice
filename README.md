@@ -1,4 +1,4 @@
-# pythonMusclePractice
+# MusclePractice
 
 Practice Makes Perfect
 
