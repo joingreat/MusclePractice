@@ -63,3 +63,6 @@ records =[json.loads(line) for line in open(path)]
 by_tz_os = cframe.groupby(['tz',operation_system])
 agg_counts= by_tz_os.size().unstack().fillna(0)
 
+#create a dataframe contain a list and then sum the column
+a1 =pd.DataFrame({'a':[[1,2,3,4],[1,2,3]]})
+a1['a2']= a1.a.apply(lambda x: sum([m for m in x ]))
