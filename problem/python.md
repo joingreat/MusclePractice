@@ -20,3 +20,6 @@ server_hostname
 pip 2 slow:
 
     https://zhuanlan.zhihu.com/p/46975553
+
+awesome package:
+    https://github.com/huangboming/awesome-python
