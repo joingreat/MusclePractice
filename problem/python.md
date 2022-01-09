@@ -16,3 +16,7 @@ server_hostname
 
     close the proxy
     https://blog.csdn.net/bl_yang/article/details/116742097?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1.opensearchhbase&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1.opensearchhbase
+
+pip 2 slow:
+
+    https://zhuanlan.zhihu.com/p/46975553
