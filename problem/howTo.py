@@ -66,3 +66,8 @@ agg_counts= by_tz_os.size().unstack().fillna(0)
 #create a dataframe contain a list and then sum the column
 a1 =pd.DataFrame({'a':[[1,2,3,4],[1,2,3]]})
 a1['a2']= a1.a.apply(lambda x: sum([m for m in x ]))
+
+#flatten the nested list
+m = [[1,2,8,9],[2,4,9,12],[4,7,10,13],[6,8,11,15]]
+m1=sum(m, [])
+m1
