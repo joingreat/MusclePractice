@@ -23,3 +23,6 @@ pip 2 slow:
 
 awesome package:
     https://github.com/huangboming/awesome-python
+
+peak detection:
+    https://stackoverflow.com/questions/1713335/peak-finding-algorithm-for-python-scipy
