@@ -26,3 +26,9 @@ awesome package:
 
 peak detection:
     https://stackoverflow.com/questions/1713335/peak-finding-algorithm-for-python-scipy
+
+if __name__==__"main"__:
+    https://cloud.tencent.com/developer/article/1538553
+
+pandasGraph:
+    https://pandas.liuzaoqi.com/intro.html
