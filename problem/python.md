@@ -21,6 +21,14 @@ pip 2 slow:
     pip install django -i https://pypi.tuna.tsinghua.edu.cn/simple
     https://zhuanlan.zhihu.com/p/46975553
 
+    import pkg_resources
+    from subprocess import call
+    
+    for packages in [dist.project_name for dist in pkg_resources.working_set]:
+        call("pip3 install --upgrade " + ''.join(packages) + ' --user' +'-i https://pypi.tuna.tsinghua.edu.cn/simple', shell=True)
+        print(packages)
+
+
 awesome package:
     https://github.com/huangboming/awesome-python
 
@@ -32,3 +40,16 @@ if __name__==__"main"__:
 
 pandasGraph:
     https://pandas.liuzaoqi.com/intro.html
+
+yield generator
+    https://zhuanlan.zhihu.com/p/453927145  
+
+python itself update
+    https://blog.csdn.net/qq_43228739/article/details/108116208
+
+conda update python
+    https://blog.csdn.net/Defiler_Lee/article/details/109287412
+
+
+pip list --outdated
+pip-review --local  --interactive

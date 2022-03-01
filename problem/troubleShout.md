@@ -4,3 +4,6 @@
 
     trend detection:
     https://stackoverflow.com/questions/55649356/how-can-i-detect-if-trend-is-increasing-or-decreasing-in-time-series
+
+    conda不是内部外部命令：
+    https://blog.csdn.net/mars_xiaolei/article/details/82798640
